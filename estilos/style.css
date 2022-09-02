@@ -11,6 +11,6 @@
 }
 
 body {
-    color: var(--cor03);
+    background-color: var(--cor03);
     font-family: var(--fonte-padrao);
 }

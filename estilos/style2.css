@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+:root {
+    --corx: #ff00ff;
+}
+
+body {
+    background-color: var(--corx);
+}
