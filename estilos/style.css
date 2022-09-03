@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: fonte_titulo;
+    src: url(../fontes/Masterbaker.ttf) format('truetype');
+}
+
+:root {
+    --cor01: #000000;
+    --cor02: #ffffff;
+    --cor03: #cd8440;
+    --cor04: #e3a23b;
+    --cor05: #d9ab38;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor03));
+    padding: 10px;
+}
+
+header h1 {
+    display: inline-block;
+    background-color: var(--cor02);
+    font-family: fonte_titulo;
+    font-size: 0.9em;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-left: 3vw;
+    box-shadow: -2px 2px 0 rgba(0, 0, 0, 0.518);
+}
+
+nav {
+    border-bottom: 2px solid black;
+    background-color: var(--cor03);
+    padding: 10px;
+}
+
+nav ul li {
+    display: block;
+    padding: 10px 20px;
+    background-color: var(--cor02);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: lightgray;
+}
+
+nav ul li a {
+    color: var(--cor01);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: var(--cor05);
+}
+
+main {
+    width: 90vw;
+    margin: auto;
+    background-color: lightgray;
+}
