@@ -71,6 +71,29 @@ main {
     padding: 10px;
 }
 
+main article {
+    background-color: #efefef;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main article h2 {
+    text-align: center;
+}
+
+main article img.imga {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+main article ul {
+    list-style-position: inside;
+}
+
 footer {
     background-color: var(--cor03);
     text-align: center;
