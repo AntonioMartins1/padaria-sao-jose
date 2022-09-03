@@ -72,7 +72,7 @@ main {
 }
 
 footer {
-    background-color: #cd8440;
+    background-color: var(--cor03);
     text-align: center;
     padding: 10px;
     font-weight: 600;
