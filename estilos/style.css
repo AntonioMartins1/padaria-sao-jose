@@ -78,6 +78,7 @@ main article {
     margin: 10px;
     text-align: justify;
     text-indent: 20px;
+    line-height: 1.5em;
 }
 
 main article h2 {
