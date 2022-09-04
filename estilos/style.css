@@ -51,6 +51,10 @@ span#burguer {
     border-bottom: 2px solid black;
 }
 
+span#burguer:hover {
+    color: var(--cor02);
+}
+
 nav {
     display: none;
     border-bottom: 2px solid black;
@@ -122,4 +126,21 @@ footer {
     text-align: center;
     padding: 10px;
     font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+    main {
+        max-width: 800px;
+    }
 }
