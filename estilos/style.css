@@ -35,7 +35,7 @@ header h1 {
 }
 
 header h1 a {
-    font-family: fonte_titulo;
+    font-family: fonte_titulo, 'Times New Roman', Times, serif;
     font-size: 0.5em;
     color: var(--cor01);
     text-decoration: none;
