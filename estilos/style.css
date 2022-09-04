@@ -97,7 +97,7 @@ main article img.imga {
     width: 80%;
 }
 
-main article ul, main article ol {
+main article ul li, main article ol li{
     list-style-position: inside;
 }
 
