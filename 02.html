@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receita de pão francês caseiro, Padaria São José</title>
     <link rel="shortcut icon" href="imagens/favicon/Fixicon-Market-Bread.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1><a href="index.html">Padaria São José</a></h1>
     </header>
-    <nav>
+    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+    <nav id="menu">
         <ul>
             <li><a href="">Receitas</a></li>
             <li><a href="">Dicas</a></li>
@@ -55,5 +57,22 @@
     <footer>
         <p>Padaria São José&copy;</p>
     </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
